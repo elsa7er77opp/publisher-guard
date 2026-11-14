@@ -1,0 +1,43 @@
+# CyberBank Publisher Guard — Build TODO
+
+- [x] Select Digital Template / Asset Pack as the default MVP profile; defer Game Content and Client Handoff profiles.
+- [x] Create an isolated .NET/Avalonia Desktop solution with Domain, Application, Infrastructure, Desktop, and test projects.
+- [x] Define explicit local package authorization and canonical source/output root containment.
+- [x] Build a non-executing inventory engine for files, relative paths, hashes, size, type, and deterministic exclusions.
+- [x] Add profile-aware package preflight for missing required files, duplicate paths, suspicious metadata, root escapes, and unsupported content.
+- [x] Connect local package project creation to explicit source/output folder selection and authorized roots.
+- [x] Bind real inventory, preflight issues, inclusion decisions, and evidence state into the Publisher Guard Workstation.
+- [x] Build reviewable include/exclude decisions, safe local audit events, a manifest, and SHA-256 delivery evidence.
+- [x] Implement atomic clean-package output, bounded progress/cancel queue, and no-network/no-cloud behavior.
+- [x] Create a Publisher Guard-specific native Workstation with Package Explorer, issue center, evidence inspector, and build queue.
+- [x] Create an original calm globe-L mark, restrained 3D launch visual, and true-alpha Windows icon for Publisher Guard.
+- [x] Replace the temporary title-bar L placeholder with the actual original Globe-L asset; use the same silhouette in the title, Splash, and Windows icon sources.
+- [x] Package, clean-install-test, and verify a Windows Alpha installer without marketplace upload, legal advice, payment, or licensing-server features.
+- [x] Replace the current panel-first workflow with a guided package journey: Select package → Review findings → Resolve decisions → Build evidence.
+- [x] Redesign the active work area around one clear next action, progress states, and a concise readiness summary rather than static multi-panel density.
+- [x] Make each finding actionable in context with understandable remediation choices and an explicit delivery-readiness gate.
+- [x] Rework Globe-L placement, header hierarchy, empty states, and visual rhythm after the workflow is redesigned.
+- [x] Reduce the public workflow to four plain-language stages—Choose package, Check it, Resolve items, Create delivery—while keeping hashes, rule IDs, and audit detail secondary and opt-in.
+- [x] Research comparable package-validation, file-review, and delivery-preparation tools for simple user flow and information hierarchy; do not copy their layouts or branding.
+- [x] Rebuild Publisher Guard as a full professional Workstation—not a wizard—with a focused Package Library, central Review Canvas, contextual Details panel, and compact Delivery Activity strip.
+- [x] Replace the reused Globe-L identity with the user-approved original code-authored Globe-L and a distinct executable icon.
+- [x] Superseded by the user-approved Globe-L requirement: the rejected 3D package-seal was removed and is no longer used.
+- [x] Replace the rejected mark with a code-authored Globe-L: clear centered L, true alpha, restrained premium geometry, and no generated 3D imagery.
+- [x] Rebalance the Workstation with explicit outer margins, internal panel padding, and wider gutters so controls and panels do not visually run together.
+- [x] Discard the first code-authored Globe-L attempt; prototype and review a smaller geometric mark on a fixed construction grid before any application integration.
+- [x] Use the approved Globe-L prototype as the fixed silhouette and add only restrained code-authored 3D depth, metal rim light, and shadow separation before integration.
+- [x] Make the Globe-L unmistakably spherical through clearer balanced latitude/longitude lines while preserving an unobstructed foreground L.
+- [x] Scale the code-authored L beyond the globe’s upper boundary so it reads as the primary mark while the earth remains a clear secondary silhouette.
+- [x] Reduce the L’s top overflow to a restrained amount and apply a small deliberate tilt while retaining a readable letterform over the globe.
+- [x] Approve the code-authored Globe-L 3D construction: restrained top overflow, gentle tilt, readable foreground L, and balanced globe grid.
+- [x] Integrate the approved Globe-L PNG/ICO consistently into Splash, window chrome, executable icon, and installer source.
+- [x] Complete and test the end-to-end local workflow with a real fixture package: select, inspect, resolve findings, build, cancel, and verify evidence output.
+- [x] Finalize Workstation spacing, panel boundaries, selected-item clarity, and concise local-user language before the final Windows Alpha rebuild.
+- [x] Prioritize the next Publisher Guard upgrade from practical local-first improvements before adding new features.
+- [x] Increase and sharpen the approved Globe-L only in the application header and Splash; retain the current Windows executable icon unchanged.
+- [x] Add local package presets so a creator can start from an appropriate check profile without configuring individual rules.
+- [x] Add a quick package check summary that reports included, excluded, and review-needed counts before delivery.
+- [x] Add local persisted ignore rules for creator-approved paths or file-name patterns, with clear reason and no network sync.
+- [x] Add an on-device comparison between two package inventories to highlight added, removed, and changed files by SHA-256.
+- [x] Add a readable delivery report alongside the existing JSON evidence, intended for a creator or client rather than a developer.
+- [x] Remove duplicate visual primary actions from the empty Workstation and reflow the Next Action surface so its headline cannot truncate at the target Windows display scale.

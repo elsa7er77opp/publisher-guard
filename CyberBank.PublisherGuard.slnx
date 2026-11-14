@@ -1,0 +1,15 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/CyberBank.PublisherGuard.Application/CyberBank.PublisherGuard.Application.csproj" />
+    <Project Path="src/CyberBank.PublisherGuard.Domain/CyberBank.PublisherGuard.Domain.csproj" />
+    <Project Path="src/CyberBank.PublisherGuard.Infrastructure/CyberBank.PublisherGuard.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CyberBank.PublisherGuard.Application.Tests/CyberBank.PublisherGuard.Application.Tests.csproj" />
+    <Project Path="tests/CyberBank.PublisherGuard.Desktop.Tests/CyberBank.PublisherGuard.Desktop.Tests.csproj" />
+    <Project Path="tests/CyberBank.PublisherGuard.Domain.Tests/CyberBank.PublisherGuard.Domain.Tests.csproj" />
+    <Project Path="tests/CyberBank.PublisherGuard.Infrastructure.Tests/CyberBank.PublisherGuard.Infrastructure.Tests.csproj" />
+  </Folder>
+  <Project Path="CyberBank.PublisherGuard.Desktop/CyberBank.PublisherGuard.Desktop.csproj" />
+  <Project Path="CyberBank.PublisherGuard/CyberBank.PublisherGuard.csproj" />
+</Solution>

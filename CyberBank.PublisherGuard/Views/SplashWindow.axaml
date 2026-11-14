@@ -1,0 +1,48 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="CyberBank.PublisherGuard.Views.SplashWindow"
+        Width="760" Height="440"
+        CanResize="False"
+        WindowDecorations="None"
+        Background="#080B0D"
+        WindowStartupLocation="CenterScreen">
+    <Border Margin="1" BorderBrush="#30424A" BorderThickness="1" Background="#0A0E11">
+        <Grid RowDefinitions="38,*,44">
+            <Border Background="#0E1518" BorderBrush="#26353C" BorderThickness="0,0,0,1" Padding="16,0">
+                <Grid ColumnDefinitions="*,Auto">
+                    <TextBlock Text="CYBERBANK  /  LOCAL DESKTOP SERIES" VerticalAlignment="Center" FontSize="10" FontWeight="SemiBold" Foreground="#7898A6" LetterSpacing="1.1" />
+                    <TextBlock Grid.Column="1" Text="PUBLISHER GUARD · ALPHA" VerticalAlignment="Center" FontSize="10" Foreground="#71838C" />
+                </Grid>
+            </Border>
+
+            <Grid Grid.Row="1" ColumnDefinitions="330,*" Margin="42,26">
+                <Border Width="246" Height="246" Background="#10171B" BorderBrush="#38515D" BorderThickness="1" CornerRadius="12">
+                    <Grid>
+                        <Border Width="184" Height="184" Background="#0C1114" BorderBrush="#4D8497" BorderThickness="1" CornerRadius="8" />
+                        <Border Width="7" Height="148" Background="#79BDD0" HorizontalAlignment="Right" Margin="0,0,23,0" Opacity="0.72" />
+                        <Image Source="/Assets/Brand/publisher_guard_globe_l.png" Width="228" Height="228" Stretch="Uniform" RenderOptions.BitmapInterpolationMode="HighQuality" />
+                    </Grid>
+                </Border>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center" Spacing="12" Margin="34,0,0,0">
+                    <TextBlock Text="CyberBank" FontSize="12" FontWeight="SemiBold" Foreground="#9BB7C4" LetterSpacing="1.4" />
+                    <TextBlock Text="Publisher Guard" FontSize="30" FontWeight="SemiBold" Foreground="#E4EAED" />
+                    <TextBlock Text="Local package review and delivery workstation" FontSize="13" Foreground="#9AA9B0" />
+                    <Border Height="1" Background="#293A41" Margin="0,8,0,5" />
+                    <StackPanel Spacing="7">
+                        <TextBlock Text="• Initializing local package boundary" FontSize="12" Foreground="#B0C0C7" />
+                        <TextBlock Text="• Preparing non-executing inventory engine" FontSize="12" Foreground="#9CAAB1" />
+                        <TextBlock Text="• Loading delivery evidence ledger" FontSize="12" Foreground="#87979E" />
+                    </StackPanel>
+                </StackPanel>
+            </Grid>
+
+            <Border Grid.Row="2" Background="#0D1316" BorderBrush="#26353C" BorderThickness="0,1,0,0" Padding="16,0">
+                <Grid ColumnDefinitions="*,120">
+                    <TextBlock Text="LOCAL INITIALIZATION · NO NETWORK TRANSFER" VerticalAlignment="Center" FontSize="10" FontWeight="SemiBold" Foreground="#8EB5C6" />
+                    <TextBlock Grid.Column="1" Text="READYING" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="10" Foreground="#D6A159" />
+                </Grid>
+            </Border>
+        </Grid>
+    </Border>
+</Window>

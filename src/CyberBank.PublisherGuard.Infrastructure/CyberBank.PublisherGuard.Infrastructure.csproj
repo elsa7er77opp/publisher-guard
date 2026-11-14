@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CyberBank.PublisherGuard.Domain\CyberBank.PublisherGuard.Domain.csproj" />
+    <ProjectReference Include="..\CyberBank.PublisherGuard.Application\CyberBank.PublisherGuard.Application.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
