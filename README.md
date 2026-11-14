@@ -4,17 +4,17 @@ Publisher Guard prepares a local delivery package from selected source files. In
 
 ## Engineering scope
 
-The installer declares Alpha 0.2.0. The checked-in domain project references missing package types. The broad Packages ignore rule also matches the expected domain source directory. A source-complete checkout is needed before claiming a reproducible build.
+The installer declares Alpha 0.2.0. The review branch restores the original inventory, inclusion and delivery implementations from the development checkout. The root NuGet cache remains ignored.
 
 ## Getting started
 
-Use the .NET 10 SDK on Windows. From the repository root, build with `dotnet build CyberBank.PublisherGuard.slnx`. To run the isolated domain suite, use `dotnet test tests/CyberBank.PublisherGuard.Domain.Tests/CyberBank.PublisherGuard.Domain.Tests.csproj`. The current public checkout stops during compilation as described below.
+Use the .NET 10 SDK on Windows. From the repository root, build with `dotnet build CyberBank.PublisherGuard.slnx`. To run the isolated domain suite, use `dotnet test tests/CyberBank.PublisherGuard.Domain.Tests/CyberBank.PublisherGuard.Domain.Tests.csproj`. Run all four suites with `dotnet test CyberBank.PublisherGuard.slnx`.
 
 ## Status and verification
 
-Alpha 0.2.0 packaging. Public checkout fails to build.
+Alpha 0.2.0 packaging.
 
-The domain test command failed at compilation (CS0234 and CS0246, including missing `PackageInclusionState`). No tests executed. The fixture documents intended behavior pending a successful run.
+The restored solution passed domain, application, infrastructure and desktop tests on Windows with the .NET 10 SDK. This check did not install the packaged product.
 
 ## Source and evidence
 
